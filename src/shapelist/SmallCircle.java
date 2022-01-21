@@ -17,7 +17,10 @@ public class SmallCircle {
     {
         this.radius=4;
     }
-
+    public SmallCircle(int r)
+    {
+        this.radius=r;
+    }
     /**
      * @return the radius
      */
